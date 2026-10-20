@@ -1,0 +1,22 @@
+{
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "class_indices": {
+    "glioma": 0,
+    "meningioma": 1,
+    "notumor": 2,
+    "pituitary": 3
+  },
+  "image_size": [
+    160,
+    160
+  ],
+  "batch_size": 32,
+  "selected_checkpoint": "/kaggle/working/brain_tumor_vgg16_output/best_vgg16_head512_finetuned.keras",
+  "test_accuracy": 0.9490472078323364,
+  "test_loss": 0.24170172214508057
+}
